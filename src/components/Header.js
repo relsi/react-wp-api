@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from '../assets/logo.svg';
 
 function Header() {
   return (
-    <header className={`${styles.header} container`}>
+    <header className={`${styles.header}`}>
       <nav className={styles.nav}>
         <Link className={styles.logo} to="/" aria-label="Dogs - Home">
           <Logo />

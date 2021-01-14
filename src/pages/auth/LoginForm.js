@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Input from '../../components/form/Input';
+import Button from '../../components/form/Button';
 
 const LoginForm = () => {
   const [username, setUsername] = React.useState('');
@@ -31,7 +32,7 @@ const LoginForm = () => {
         <Input name="username" id="password" type="text" label="Username" />
         <Input name="password" id="password" type="password" label="Password" />
 
-        <button>Login</button>
+        <Button>Login</Button>
       </form>
       <Link to="/login/register">Register</Link>
     </section>
